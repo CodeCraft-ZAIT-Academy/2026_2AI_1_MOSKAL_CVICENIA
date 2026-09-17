@@ -1,0 +1,17 @@
+.header,.header2{
+    background-color: grey;
+
+}
+.number{
+    text-align: right;
+}
+table, th, td{
+    border: 1px solid;
+    border-inline-color: color;
+}
+table{
+    background-color: greenyellow;
+}
+tr:nth-last-child(even){
+    background-color: yellow;
+}
