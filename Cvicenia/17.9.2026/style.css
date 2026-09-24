@@ -1,5 +1,6 @@
 .header,.header2{
     background-color: grey;
+    
 
 }
 .number{
@@ -13,5 +14,5 @@ table{
     background-color: greenyellow;
 }
 tr:nth-last-child(even){
-    background-color: yellow;
+    background-color: lightblue;
 }
