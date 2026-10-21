@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="search-box">
+    <img class="circle-img" src="https://softpfp.com/wp-content/uploads/2026/07/Default-Pfp-Instagram-2.webp" alt="Profile Picture">
+    <input class="search-bar" type="text" placeholder="What's happening?">
+</div>
+
+<div class="grid">
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy0w1gDf5wd_ZANM2AYOUy3L9GFOIJRv4C1bRqcsQLtg&s=10" width="150" height="200">
+        <div class="container">
+            <img class="avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy0w1gDf5wd_ZANM2AYOUy3L9GFOIJRv4C1bRqcsQLtg&s=10" alt="Avatar">
+            <div class="card-info">
+                <p class="title">lopta, Keeps it</p>
+                <p class="sub-text">Duklock</p>
+                <p class="sub-text">10 mil. views • 1 year ago</p>
+            </div>
+            <div class="more-options">⋮</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy0w1gDf5wd_ZANM2AYOUy3L9GFOIJRv4C1bRqcsQLtg&s=10" width="150" height="200">
+        <div class="container">
+            <img class="avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy0w1gDf5wd_ZANM2AYOUy3L9GFOIJRv4C1bRqcsQLtg&s=10" alt="Avatar">
+            <div class="card-info">
+                <p class="title">linkyny Park</p>
+                <p class="sub-text">Duklock</p>
+                <p class="sub-text">25 mil. views • 12 days ago</p>
+            </div>
+            <div class="more-options">⋮</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy0w1gDf5wd_ZANM2AYOUy3L9GFOIJRv4C1bRqcsQLtg&s=10" width="150" height="200">
+        <div class="container">
+            <img class="avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy0w1gDf5wd_ZANM2AYOUy3L9GFOIJRv4C1bRqcsQLtg&s=10" alt="Avatar">
+            <div class="card-info">
+                <p class="title">Gbely</p>
+                <p class="sub-text">Duklock</p>
+                <p class="sub-text">25 tis. views • 12 week ago</p>
+            </div>
+            <div class="more-options">⋮</div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+<style>
+    .search-box {
+        margin: 0 auto; 
+        gap: 5px;
+        width: 300px;
+        align-items: center;
+        display: flex;
+        border: 1px solid #ccc;
+        margin-bottom: 15px;
+    }
+    .circle-img {
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        object-fit: cover;
+        margin-left: 2px;
+    }
+    .search-bar {
+        flex: 1;
+        background-color: #f5f8fa;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        color: black;
+        margin: 2px;
+    }
+    .search-bar::placeholder {
+        color: black;
+    }
+    .search-bar:focus::placeholder {
+        opacity: 0;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin: 0 auto;
+    }
+    .card img {
+        width: 100%;
+        aspect-ratio: 3/4;
+        object-fit: cover;
+    }
+
+    
+    .container {
+        display: flex;
+        gap: 8px;
+        margin-top: 8px;
+        align-items: flex-start;
+    }
+
+    .avatar {
+        width: 28px !important;
+        height: 28px !important;
+        aspect-ratio: 1/1 !important;
+        border-radius: 50%;
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+
+    .card-info {
+        flex: 1;
+    }
+
+    .title {
+        font-size: 13px;
+        font-weight: bold;
+        margin: 0 0 2px 0;
+        line-height: 1.2;
+    }
+
+    .sub-text {
+        font-size: 11px;
+        color: #777;
+        margin: 0;
+        line-height: 1.3;
+    }
+
+    .more-options {
+        color: #777;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        line-height: 1;
+    }
+</style>
+</html>
